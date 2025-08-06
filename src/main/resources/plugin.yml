@@ -1,0 +1,27 @@
+name: PlayersSex
+version: '1.0'
+main: org.bindywashere.playersSex.PlayersSex
+api-version: '1.21'
+author: bindywashere
+description: Плагин для ролевого взаимодействия между игроками через команду /sex
+commands:
+  sex:
+    description: Отправить запрос на секс другому игроку
+    usage: /sex <игрок>
+    permission: playerssex.use
+    permission-message: §cУ вас нет прав на использование этой команды!
+  sex_accept:
+    description: Принять запрос на секс
+    usage: /sex_accept
+    permission: playerssex.use
+    permission-message: §cУ вас нет прав на использование этой команды!
+  sex_decline:
+    description: Отклонить запрос на секс
+    usage: /sex_decline
+    permission: playerssex.use
+    permission-message: §cУ вас нет прав на использование этой команды!
+permissions:
+  playerssex.use:
+    default: true
+  playerssex.others:
+    default: true
