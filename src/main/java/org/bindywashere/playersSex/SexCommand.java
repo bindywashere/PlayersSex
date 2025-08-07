@@ -1,7 +1,6 @@
 package org.bindywashere.playersSex;
 
 import org.bukkit.Bukkit;
-import org.bukkit.Particle;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
